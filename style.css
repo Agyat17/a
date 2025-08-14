@@ -1,7 +1,7 @@
 :root {
-  --bg: #111;             
-  --box: #ffeb3b;         
-  --ink: #000;            
+  --bg: #111;
+  --box: #ffeb3b;
+  --ink: #000;
   --card-radius: 18px;
   --shadow: 0 10px 30px rgba(0,0,0,.35);
 }
@@ -18,12 +18,7 @@ body {
   place-items: start center;
 }
 
-.wrap {
-  width: min(880px, 100%);
-  padding: 16px;
-  display: grid;
-  gap: 16px;
-}
+.wrap { width: min(880px, 100%); padding: 16px; display: grid; gap: 16px; }
 
 .box {
   background: var(--box);
@@ -34,10 +29,7 @@ body {
   gap: 12px;
 }
 
-h2 {
-  margin: 0 4px 4px;
-  font-size: clamp(20px, 5vw, 28px);
-}
+h2 { margin: 0 4px 4px; font-size: clamp(20px, 5vw, 28px); }
 
 .messages {
   background: rgba(255,255,255,.35);
@@ -68,9 +60,7 @@ h2 {
   box-shadow: 0 2px 8px rgba(0,0,0,.1);
 }
 
-.msg.highlight {
-  animation: flash 1.5s ease;
-}
+.msg.highlight { animation: flash 1.5s ease; }
 
 @keyframes flash {
   0% { background-color: rgba(255,255,255,0.9); }
@@ -78,18 +68,9 @@ h2 {
   100% { background-color: rgba(255,255,255,0.9); }
 }
 
-.meta {
-  font-size: 12px;
-  opacity: .7;
-  margin-top: 3px;
-}
+.meta { font-size: 12px; opacity: .7; margin-top: 3px; }
 
-.composer {
-  display: grid;
-  grid-template-columns: 1fr auto;
-  gap: 8px;
-  align-items: start;
-}
+.composer { display: grid; grid-template-columns: 1fr auto; gap: 8px; align-items: start; }
 
 .composer textarea {
   width: 100%;
@@ -114,7 +95,4 @@ h2 {
   box-shadow: 0 4px 14px rgba(0,0,0,.3);
 }
 
-@media (min-width: 768px) {
-  .wrap { gap: 20px; }
-  .messages { max-height: 38vh; }
-}
+@media (min-width: 768px) { .wrap { gap: 20px; } .messages { max-height: 38vh; } }
