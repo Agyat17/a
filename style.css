@@ -1,11 +1,12 @@
 body {
-    font-family: 'Dancing Script', cursive; /* Handwritten cursive font */
-    font-size: 18px; /* Text thoda bada aur readable */
-    line-height: 1.6; /* Line spacing for easy reading */
-    color: #333; /* Dark grey for soft look */
+    margin: 0;
+    background-color: #111;
+  font-family: 'Dancing Script', cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 20px;
-    background-color: #f9f9f9; /* Soft background */
-  }
+}
 
 .box {
     background-color: #ffeb3b; /* Yellow */
@@ -33,5 +34,6 @@ body {
         padding: 20px;
     }
 }
+
 
 
