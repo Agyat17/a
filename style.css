@@ -1,13 +1,32 @@
-body {
+ body {
+    font-family: 'Patrick Hand', 'Indie Flower', cursive; /* Natural handwritten fonts */
+    font-size: 18px; /* Easy reading */
+    line-height: 1.8; /* Comfortable line spacing */
+    color: #222; /* Dark grey for soft look */
+    background-color: #fff8f0; /* Soft cream background for cozy feel */
+    padding: 30px;
     margin: 0;
-    background-color: #111;
-    font-family: 'Pacifico', cursive;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-}
+  }
 
+  h1, h2, h3 {
+    font-family: 'Pacifico', cursive; /* Stylish headers */
+    margin-bottom: 15px;
+    color: #444;
+  }
+
+  p {
+    margin-bottom: 15px;
+  }
+
+  a {
+    font-family: 'Patrick Hand', cursive;
+    color: #d2691e; /* Brownish color like pen ink */
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
 .box {
     background-color: #ffeb3b; /* Yellow */
     color: black; /* Black text */
@@ -34,3 +53,4 @@ body {
         padding: 20px;
     }
 }
+
