@@ -1,41 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Two-Box Chat</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>...</title>
 
-  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css" />
+<!-- Google Fonts for Handwriting Style -->
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+<!-- Link to External CSS -->
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <main class="wrap">
-    <!-- Box 1: You (receive only) -->
-    <section class="box">
-      <h2>Box 1 — You</h2>
-      <div id="youMessages" class="messages" aria-live="polite"></div>
 
-      <form id="youForm" class="composer">
-        <textarea id="youInput" placeholder="You cannot type here…" rows="2" disabled></textarea>
-        <button type="submit" disabled>Send</button>
-      </form>
-    </section>
+<div class="box">....</div>
+<div class="box">....</div>
 
-    <!-- Box 2: Friend (can type) -->
-    <section class="box">
-      <h2>Box 2 — Friend</h2>
-      <div id="friendMessages" class="messages" aria-live="polite"></div>
-
-      <form id="friendForm" class="composer">
-        <textarea id="friendInput" placeholder="Friend types here…" rows="2" required></textarea>
-        <button type="submit">Send</button>
-      </form>
-    </section>
-  </main>
-
-  <script src="https://www.gstatic.com/firebasejs/10.12.4/firebase-app-compat.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/10.12.4/firebase-auth-compat.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/10.12.4/firebase-database-compat.js"></script>
-  <script src="app.js"></script>
 </body>
 </html>
